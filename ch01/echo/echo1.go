@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
+
+	"example.com/greetings"
 )
 
 func main() {
@@ -12,4 +14,6 @@ func main() {
 		sep = " "
 	}
 	fmt.Println(s)
+
+	fmt.Println(greetings.Hello(s))
 }
