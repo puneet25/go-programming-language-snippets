@@ -25,13 +25,3 @@ func main() {
 		fmt.Println()
 	}
 }
-
-type Celsius float64
-type Fahrenheit float64
-
-func test() {
-
-	var cValue Celsius = 25
-	var fValue Fahrenheit = 25
-	fmt.Println(cValue == fvalue)
-}
