@@ -1,1 +1,1 @@
-# go_programming_language_snippets
+# go-programming-language-snippets
